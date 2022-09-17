@@ -37,6 +37,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-uppercase/tags). For example,
+
+```javascript
 import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v0.0.2-deno/mod.js';
 ```
 
@@ -60,7 +65,7 @@ var str = uppercase( 'bEEp' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v0.0.2-deno/mod.js';
+import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@deno/mod.js';
 
 var str = uppercase( 'Beep' );
 // returns 'BEEP'
