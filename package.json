@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-uppercase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert a string to uppercase.",
   "license": "Apache-2.0",
   "author": {
