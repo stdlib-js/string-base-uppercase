@@ -30,19 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-uppercase
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-uppercase/tags). For example,
-
-```javascript
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v0.0.3-esm/index.mjs';
+var uppercase = require( '@stdlib/string-base-uppercase' );
 ```
 
 #### uppercase( str )
@@ -64,13 +75,8 @@ var str = uppercase( 'bEEp' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@esm/index.mjs';
+```javascript
+var uppercase = require( '@stdlib/string-base-uppercase' );
 
 var str = uppercase( 'Beep' );
 // returns 'BEEP'
@@ -86,10 +92,6 @@ str = uppercase( '$**_beep_BoOp_**$' );
 
 str = uppercase( '' );
 // returns ''
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -113,7 +115,7 @@ str = uppercase( '' );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -143,8 +145,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base-uppercase.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base-uppercase
 
-[test-image]: https://github.com/stdlib-js/string-base-uppercase/actions/workflows/test.yml/badge.svg?branch=v0.0.3
-[test-url]: https://github.com/stdlib-js/string-base-uppercase/actions/workflows/test.yml?query=branch:v0.0.3
+[test-image]: https://github.com/stdlib-js/string-base-uppercase/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/string-base-uppercase/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base-uppercase/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base-uppercase?branch=main
