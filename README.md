@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@esm/index.mjs';
+import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v0.1.0-esm/index.mjs';
 ```
 
 #### uppercase( str )
@@ -76,7 +76,7 @@ var str = uppercase( 'bEEp' );
 <body>
 <script type="module">
 
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@esm/index.mjs';
+import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v0.1.0-esm/index.mjs';
 
 var str = uppercase( 'Beep' );
 // returns 'BEEP'
