@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@deno/mod.js';
+import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v1.0.0-deno/mod.js';
 ```
 
 #### uppercase( str )
@@ -71,7 +71,7 @@ var str = uppercase( 'bEEp' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@deno/mod.js';
+import uppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v1.0.0-deno/mod.js';
 
 var str = uppercase( 'Beep' );
 // returns 'BEEP'
