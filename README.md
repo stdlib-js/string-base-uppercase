@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-uppercase = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@umd/browser.js' )
+uppercase = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v1.0.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var uppercase = require( 'path/to/vendor/umd/string-base-uppercase/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v1.0.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -98,7 +98,7 @@ var str = uppercase( 'bEEp' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-uppercase@v1.0.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
