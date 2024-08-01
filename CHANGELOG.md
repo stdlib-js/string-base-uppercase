@@ -2,30 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v1.0.0">
+<section class="release" id="unreleased">
 
-## 1.0.0 (2024-07-25)
-
-<section class="features">
-
-### Features
-
--   [`67858b3`](https://github.com/stdlib-js/stdlib/commit/67858b341e920fed871e34ba0d6b6809804916f7) - improve type safety
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`67858b3`](https://github.com/stdlib-js/stdlib/commit/67858b341e920fed871e34ba0d6b6809804916f7): improve type safety
--   [`67858b3`](https://github.com/stdlib-js/stdlib/commit/67858b341e920fed871e34ba0d6b6809804916f7): The return types are now more specific. This may break existing code that relies on less strict typing, but should not affect most users. To preserve the prior behavior, you can cast the return value to `string` via a type assertion.
-
-</section>
-
-<!-- /.breaking-changes -->
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -33,7 +12,7 @@
 
 <details>
 
--   [`67858b3`](https://github.com/stdlib-js/stdlib/commit/67858b341e920fed871e34ba0d6b6809804916f7) - **feat:** improve type safety _(by Philipp Burckhardt)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -47,7 +26,7 @@
 
 A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Philipp Burckhardt
+-   Athan Reines
 
 </section>
 
@@ -57,56 +36,71 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.release -->
 
+<section class="release" id="v1.0.0">
+
+## 1.0.0 (2024-07-25)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.1">
 
 ## 0.2.1 (2024-02-21)
 
-<section class="features">
-
-### Features
-
--   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - update minimum TypeScript version
+No changes reported for this release.
 
 </section>
 
-<!-- /.features -->
+<!-- /.release -->
 
-<section class="breaking-changes">
+<section class="release" id="v0.2.0">
 
-### BREAKING CHANGES
+## 0.2.0 (2024-02-14)
 
--   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1): update minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`3573d92`](https://github.com/stdlib-js/stdlib/commit/3573d92955f1150eae58fb534808b7a30532a1c1) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
--   [`6c7e770`](https://github.com/stdlib-js/stdlib/commit/6c7e770dab6e03561202af2861ae11c27af8a90c) - **refactor:** use strictEqual checks _(by Philipp Burckhardt)_
-
-</details>
+No changes reported for this release.
 
 </section>
 
-<!-- /.commits -->
+<!-- /.release -->
 
-<section class="contributors">
+<section class="release" id="v0.1.1">
 
-### Contributors
+## 0.1.1 (2023-10-03)
 
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
+No changes reported for this release.
 
 </section>
 
-<!-- /.contributors -->
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-22)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.3">
+
+## 0.0.3 (2023-08-12)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.2">
+
+## 0.0.2 (2022-09-17)
+
+No changes reported for this release.
 
 </section>
 
